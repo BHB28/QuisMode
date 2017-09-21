@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
 @import "bootstrap";
 
 .booyah-box {
@@ -19,10 +20,15 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background: image_url('hypnotize.png');
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: 'Cairo', sans-serif;
 }
 
 .navbar {
   background: image_url('outline.png');
   box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #E3E85A;
+  font-family: 'Cairo', sans-serif;
 }
